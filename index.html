@@ -1,48 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>css assignment 1</title>
-  </head>
-  <body>
-    <h1 style="color: red;">This is 1st css assignment?</h1>
-    <h2 style="color: green;">what is css?</h2>
-    <ol style="line-g">
-      <li>CSS stands for Cascading Style Sheet</li>
-      <li>
-        CSS describes how HTML, elements are to be displayed on screen,paper,or
-        in the media.
-      </li>
-      <li>
-       <span style="text-decoration: line-through;"> CSS is not necessary</span> <span style="background-color: yellow;"> CSS saves a lot of work</span>. It can contol the layout
-        of multiple web pages all at once
-      </li>
-      <li><a href="">External stylesheet are stored in CSS files</a></li>
-    </ol>
-    <h2 style="color:red;">CSS can be added to HTML documents in 3 ways:</h2>
-    <ul style="color: brown;">
-      <li>Inline- by using the style attribute inside HTML elements1</li>
-      <li>Internal- by using a style element in the head section</li>
-      <li>External- by using a link element to link to an external CSS file</li>
-      <li>
-        The most common way to add CSS is to keep the styles in external CSS
-        files. however, <span style="background-color: yellow;">in this tutitorial we will use inline and internal
-        styles</span>, because this is easier to demonstrate,and easier for you to try
-        it yourself
-      </li>
-    </ul>
-    <p>
-      When comparing CSS class vs ID,the difference is that CSS class applies a
-      style to multiple elements.ID, on the other hand,applies a style to one
-      unique element. ID is also special in that you can use a special URL.to
-      link directly to an element and it's used by JavaSript.
-    </p>
-    <p style="color:brown;">
-      There is a wide range of selectors available.Two of the most commonly used
-      are class and ID. Both are used to target elements to which a style should
-      be applie
-    </p>
-    <a href="" style="background-color: yellow; text-decoration: none;"> click here visit website</a>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment2</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="middle.css">
+  <link rel="stylesheet" href="Menu.css">
+</head>
+<body class="main">
+  
+  <!-- header section -->
+  <div class="header">
+    <div class="headerbox">Welcome to the Dhabha Tha <br>You get quality perfect
+    </div>
+    <div class="headerbox1">Home menu review Contact Us 
+    </div>
+    <div class="headerbox2">Email: sadwanr@gmail.com <br>
+      If you find any complain <br>
+      Contact no:8709451380
+    </div>
+  </div>
+  
+  
+  <!-- middle section -->
+  <div class="middle">
+    <!-- circle -->
+    <div class="circle">
+      <div class="upper">
+        EXCITING OFFERS
+      </div>
+      <div class="content">**GET OUR SPECIAL THALI FOR ONLY RS 100 ON MONDAY**</div>
+      <div class="upper"></div>
+    </div>
+    <!-- form -->
+    <div class="form">
+      <div class="formbox">PLEASE REGISTER HERE</div>
+      <div class="formbox1">
+        <form action="">
+          First Name: <br> <input type="text" placeholder="Enter your first name"><br><br><br>
+          Last Name: <br> <input type="text" placeholder="Enter your last name"><br><br><br>
+          Your Age: <br> <input type="number" placeholder="Enter your age"><br><br><br>
+          Email: <br> <input type="email" placeholder="My Email"><br><br><br>
+          Date of Birth: <br> <input type="date"><br><br><br>
+          Are you more than one person? <br>
+          <input type="checkbox" name="person" value="yes"> <br><br><br>
+          Do you have cough or cold? <br>
+          <input type="checkbox" name="cough" value="yes"><br><br><br>
+          Click Here <br>
+          <input type="submit" value="Submit"><br><br><br>
+          Reset <br>
+          <input type="reset" value="Reset"><br>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- menu section -->
+  <div class="Menu">
+    <div class="menu headerbox1">Menu</div>
+  </div>
+  <br>
+  <hr>  
+  <!-- footer section -->
+ <div class="footer">
+    <div class="section">
+      <div class="box">
+        <h1>Starters</h1>
+        <hr>
+        <ul class="ul">
+          <li>Paneer Tikka</li>
+          <li>Tomato Soup</li>
+          <li>Afghani Chaap</li>
+          <li>Gol Gappa</li>
+          <li>Tikki</li>
+          <li>Fried Rice</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h1>South Indian</h1>
+        <hr>
+        <ul class="ul">
+          <li>Masala Dosa</li>
+          <li>Idli Sambhar</li>
+          <li>Mix Veg. Uttapam</li>
+          <li>Onion Dosa</li>
+          <li>Vada Sambhar</li>
+          <li>Paper Plain Dosa</li>
+          <li>Tomato Uttapam</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h1>Indian Kitchen</h1>
+        <hr>
+        <ul class="ul">
+          <li>Shahi Paneer</li>
+          <li>Kadhai Panner</li>
+          <li>Aloo Gobhi</li>
+          <li>Dal Makhni</li>
+          <li>Poori Sabji</li>  
+          <li>PStuff Capsicum</li>
+        </ul> 
+
+      </div>
+    </div>
+    <div class="section">
+      <div class="box">
+        <h1>Rice & Salad</h1>
+        <hr>
+        <ul class="ul">
+          <li>Plain Rice</li>
+          <li>Jeera Rice</li>
+          <li>Fried Rice</li>
+          <li>Veg Pulao</li>
+          <li>Veg Biryani</li>
+          <li>Cheese Biryani</li>
+          <li>Masala salad</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h1>Tandoori Bread</h1>
+        <hr>
+        <ul class="ul">
+          <li>Butter Roti</li>
+          <li>Missi Roti</li>
+          <li>Onion Parantha</li>
+          <li>Lacha Parantha</li>
+          <li>Butter Naan</li>
+          <li>Paneer Parantha</li>
+          <li>Stuff Parantha</li>
+      </div>
+      <div class="box">
+        <h1>Beverages And Other</h1>
+        <hr>
+        <ul class="ul">
+          <li>Cold Cofee</li>
+          <li>Cold Drinks</li>
+          <li>Badam Milk</li>
+          <li>Ice Cream</li>
+          <li>Cake</li>
+          <li>Gajar Halwa</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</body>
 </html>
